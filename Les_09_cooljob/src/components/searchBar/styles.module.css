@@ -1,0 +1,19 @@
+.cont {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: 2px solid red;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont1 {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+
+img {
+    width: 112px;
+    height: 40px;
+}

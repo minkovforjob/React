@@ -1,1 +1,20 @@
 /* global stylles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: #E4F2FF;
+}
+
+.mainCont {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+}

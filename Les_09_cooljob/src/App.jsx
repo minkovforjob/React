@@ -1,4 +1,7 @@
 import "./App.css";
+import Home from "./pages/home";
+
+
 import cooljobLogo from "./assets/icons/cooljob.svg";
 import cooljobLogo2 from "./assets/icons/cooljob.svg";
 import cooljobLogo3 from "./assets/icons/cooljob.svg";
@@ -9,15 +12,18 @@ const vacansies = [
 ];
 function App() {
   return (
-    <div>
-      {vacansies.map((vacancy) => {
+    <div >
+      {/* className={styles.mainCont} */}
+      <Home />
+
+      {/* {vacansies.map((vacancy) => {
         return (
           <div key={vacancy.id}>
             <h3>{vacancy.title}</h3>
             <img src={vacancy.icon} alt="icon" />
           </div>
         );
-      })}
+      })} */}
     </div>
   );
 }
