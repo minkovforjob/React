@@ -1,3 +1,6 @@
+import CategoryCard from "../categoryCard";
+import styles from "./styles.module.css";
+
 import icon_cat_1 from "../../assets/icons/icon_cat_1.svg";
 import icon_cat_2 from "../../assets/icons/icon_cat_2.svg";
 import icon_cat_3 from "../../assets/icons/icon_cat_3.svg";
@@ -24,18 +27,18 @@ const cardsList = [
     { id: 10, icon: icon_cat_10, title: "Больше категорий" },
 
 ];
-function categoryCardList() {
+function CategoryCardList() {
     return (
-        <div>
+        <div className={styles.cont}>
             <h2>Работа по категориям</h2>
-            <div>
+            <div className={styles.gridCont}>
                 {cardsList.map((el) => {
                     return (
-                        <categoryCard key={el.id}{...el} />
+                        <CategoryCard key={el.id}{...el} />
                     );
                 })}
             </div>
         </div>
     );
 }
-export default categoryCardList;
+export default CategoryCardList;

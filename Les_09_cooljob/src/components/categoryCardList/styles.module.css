@@ -1,0 +1,11 @@
+.cont {
+    padding-top: 100px;
+}
+
+.gridCont {
+    margin-top: 44px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 90px;
+}

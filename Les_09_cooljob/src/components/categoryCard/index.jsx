@@ -1,8 +1,15 @@
-function categoryCard() {
+import styles from "./styles.module.css";
+function CategoryCard({ id, icon, title }) {
     return (
-        <div>
+        <div className={styles.cont}>
+            <img
+                key={id}
+                src={icon}
+                alt="Category logo"
+            />
 
+            <p>{title}</p>
         </div>
     );
 }
-export default categoryCard;
+export default CategoryCard;

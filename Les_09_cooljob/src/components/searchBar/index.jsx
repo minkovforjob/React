@@ -21,7 +21,7 @@ function SearchBar() {
             </div>
             <div className={styles.cont1}>
                 {company_icons.map((company) => (
-                    <img
+                    <img className={styles.companysLogo}
                         key={company.id}
                         src={company.icon}
                         alt="Company logo"

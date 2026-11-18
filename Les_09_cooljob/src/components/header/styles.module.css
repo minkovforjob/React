@@ -1,8 +1,16 @@
-.cont {}
+.cont {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.logo {
+    width: 110px;
+    height: 40px;
 }
 
 .nav {

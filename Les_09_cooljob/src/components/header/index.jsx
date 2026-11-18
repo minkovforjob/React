@@ -7,7 +7,7 @@ function Header() {
 
             <div className={styles.nav}>
                 <div className={styles.nav1}>
-                    <img src={cooljobLogo} alt="cooljob_Logo" />
+                    <img className={styles.logo} src={cooljobLogo} alt="cooljob_Logo" />
                     <a href="">Поиск работы</a>
                     <a href="">Поиск стартапов</a>
                 </div>
