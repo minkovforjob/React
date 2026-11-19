@@ -1,7 +1,10 @@
 .cont {
+
     padding-top: 70px;
     padding-bottom: 70px;
-    border: 2px solid red;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* border: 2px solid red; */
     background-color: white;
     display: flex;
     justify-content: space-between;

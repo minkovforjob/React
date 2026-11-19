@@ -1,15 +1,13 @@
 import styles from "./styles.module.css";
 
-import Header from "../../components/header";
-import SearchBar from "../../components/searchBar";
 import CategoryCardList from "../../components/categoryCardList";
+import VacancyCardList from "../../components/vacancyCardList";
 
 function Home() {
     return (
         <div className={styles.cont}>
-            <Header />
-            <SearchBar />
             <CategoryCardList />
+            <VacancyCardList />
         </div>
     );
 }

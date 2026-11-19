@@ -1,0 +1,19 @@
+.compLogo {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+
+}
+
+.contForArc {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.compEllpse {
+    width: 14px;
+    height: 14px;
+    margin-right: 16px;
+}

@@ -1,0 +1,19 @@
+.gridCont {
+    /* margin-top: 44px; */
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-auto-rows: 1fr;
+    row-gap: 40px;
+    column-gap: 12.5%;
+}
+
+.btnAllVacancy {
+    display: block;
+    margin: 90px auto 0;
+
+    /* margin-top: 90px; */
+
+    width: 240px;
+    height: 64px;
+
+}

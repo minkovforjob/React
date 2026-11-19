@@ -1,6 +1,18 @@
 .cont {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #CDE7FF;
+
+
+}
+
+.btnLogin {
+    width: 66px;
+    height: 44px;
+    background-color: white;
+    color: black;
 }
 
 a {

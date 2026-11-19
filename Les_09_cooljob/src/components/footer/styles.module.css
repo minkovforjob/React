@@ -1,0 +1,46 @@
+.cont {
+    background-color: #52606D;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+
+.contLogos {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: end;
+    gap: 36px;
+
+}
+
+.contCitysList {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #465461;
+
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        color: #D0E8FF;
+    }
+}
+
+.logo {
+    width: 110px;
+    height: 40px;
+}
+
+.iconFooter {
+    width: 26px;
+    height: auto;
+}

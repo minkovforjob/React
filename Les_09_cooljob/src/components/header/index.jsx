@@ -1,5 +1,6 @@
 import cooljobLogo from "../../assets/icons/cooljob.svg";
 import styles from "./styles.module.css";
+import InputsBar from "../inputsBar";
 function Header() {
     return (
         <div className={styles.cont}>
@@ -13,16 +14,12 @@ function Header() {
                 </div>
                 <div className={styles.nav1}>
                     <a href="">Регистрация</a>
-                    <button>Вход</button>
+                    <button className={styles.btnLogin}>Вход</button>
                 </div>
 
             </div>
             <h1>Один клик и работа в кармане</h1>
-            <div>
-                <input type="text" />
-                <input type="text" />
-                <button>Поиск</button>
-            </div>
+            <InputsBar />
         </div>
     );
 }

@@ -1,0 +1,35 @@
+.inputWrapper {
+    position: relative;
+    width: 460px;
+    border: 0px;
+}
+
+.inputWrapper img {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+}
+
+.inputWrapper input {
+    width: 100%;
+    height: 105px;
+    padding: 10px 10px 10px 40px;
+}
+
+.contForInput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 290px;
+
+}
+
+.btnFind {
+    width: 215px;
+    height: 105px;
+}
+
+.inpStyle {
+    border-left: 1px solid gray;
+}
