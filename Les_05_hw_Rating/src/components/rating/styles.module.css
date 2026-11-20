@@ -1,0 +1,20 @@
+.container {
+    width: 400px;
+    border: 2px solid rgb(99, 48, 146);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 30px;
+    background-color: rgb(168, 129, 205);
+    border: 2px solid rgb(99, 48, 146);
+}
