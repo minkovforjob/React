@@ -30,9 +30,6 @@ function List() {
                             Name: {el.name}, age: {el.age}
                         </li>
                     );
-                    //
-
-
                 })}
             </ul>
         </div>
